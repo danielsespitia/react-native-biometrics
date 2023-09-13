@@ -97,3 +97,21 @@ const {payload, publicKey, signature} = reqParams;
 
 // // Step 5: Tell the app verification result
 // console.log(result);
+
+// const verifySignatureWithPublicKey = (signature, payload) => {
+//   try {
+//     // use React Native Crypto
+//     const verifier = crypto.createVerify('SHA256');
+//     verifier.update(payload);
+
+//     const isSignatureValid = verifier.verify(publicKey, signature, 'base64');
+
+//     if (isSignatureValid) {
+//       console.log('Signature verification succeeded.');
+//     } else {
+//       console.log('Signature verification failed.');
+//     }
+//   } catch (error) {
+//     console.error('Error verifying signature:', error);
+//   }
+// };
