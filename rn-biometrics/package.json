@@ -10,15 +10,10 @@
     "test": "jest"
   },
   "dependencies": {
-    "@depay/js-verify-signature": "^2.0.7",
-    "@peculiar/webcrypto": "^1.4.3",
     "@react-native-async-storage/async-storage": "^1.19.2",
     "@react-native-firebase/app": "^18.3.0",
-    "atob": "^2.1.2",
-    "axios": "^1.5.0",
     "react": "18.2.0",
-    "react-native": "0.72.3",
-    "react-native-biometrics": "^3.0.0"
+    "react-native": "0.72.3"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
